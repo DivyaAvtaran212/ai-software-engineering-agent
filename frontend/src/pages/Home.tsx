@@ -12,7 +12,7 @@ function Home() {
 
         console.log("BACKEND RESPONSE:", response.data);
 
-        setMessage(response.data);
+        setMessage(response.data.message);
 
       })
       .catch((error) => {

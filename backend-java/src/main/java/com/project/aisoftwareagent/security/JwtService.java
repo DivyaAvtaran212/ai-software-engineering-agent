@@ -55,4 +55,15 @@ public class JwtService {
 
         return claims.getSubject();
     }
+
+    public boolean isTokenValid(
+            String token,
+            String email
+    ) {
+
+        String extractedEmail =
+                extractEmail(token);
+
+        return extractedEmail.equals(email);
+    }
 }

@@ -7,6 +7,7 @@ import Repositories from "../pages/Repositories";
 import Chat from "../pages/Chat";
 import Settings from "../pages/Settings";
 import MainLayout from "../layouts/MainLayout";
+import OAuthSuccess from "../pages/OAuthSuccess";
 
 function AppRoutes() {
   return (
@@ -19,6 +20,7 @@ function AppRoutes() {
           <Route path="/repositories" element={<Repositories />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/oauth-success" element={<OAuthSuccess />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -64,35 +64,6 @@ AI Software Engineering Agent aims to reduce this effort by providing an AI-powe
 
 ---
 
-# 🏗 System Architecture
-
-```text
-Frontend (React + TypeScript)
-            │
-            ▼
-Spring Boot Backend
-            │
-            ▼
-FastAPI AI Service
-            │
-            ▼
-LangGraph Workflow Engine
-            │
-     ┌──────┼──────┐
-     ▼      ▼      ▼
-
- Planner  Review  Testing
-  Agent    Agent   Agent
-            │
-            ▼
-      Qdrant Vector DB
-            │
-            ▼
-      GitHub Integration
-```
-
----
-
 # 🛠 Technology Stack
 
 ## Frontend

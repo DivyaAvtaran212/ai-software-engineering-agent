@@ -36,7 +36,6 @@ public class User {
     @Column(length = 2000)
     private String githubAccessToken;
 
-    // Constructors
 
     public User() {
     }

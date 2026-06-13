@@ -12,3 +12,5 @@ public interface UserRepository
     Optional<User> findByEmail(String email);
     Optional<User> findByGithubId(String githubId);
 }
+
+

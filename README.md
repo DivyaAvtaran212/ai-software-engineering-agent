@@ -97,13 +97,6 @@ AI Software Engineering Agent aims to reduce this effort by providing an AI-powe
 * LangChain
 * LangGraph
 
-## DevOps
-
-* Docker
-* GitHub
-* Vercel
-* Render
-
 ---
 
 # 🔮 Future Scope

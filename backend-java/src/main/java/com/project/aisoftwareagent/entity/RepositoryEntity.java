@@ -28,6 +28,7 @@ public class RepositoryEntity {
 
     private String defaultBranch;
 
+    @SuppressWarnings({"FieldMayBeFinal", "unused"})
     private LocalDateTime createdAt =
             LocalDateTime.now();
 
